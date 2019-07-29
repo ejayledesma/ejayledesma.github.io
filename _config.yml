@@ -1,5 +1,5 @@
 # Theme
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 minimal_mistakes_skin: "dark"
 
 # Site Settings
@@ -26,3 +26,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ejayledesma"
+
+
+plugins:
+  - jekyll-include-cache
