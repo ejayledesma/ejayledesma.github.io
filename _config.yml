@@ -1,5 +1,28 @@
+# Theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
+
+# Site Settings
 title: Ejay Ledesma
 description: This is my personal site.
+name: Ejay Ledesma
+url: "https://ejayledesma.github.io"
+repository: "ejayledesma/ejayledesma.github.io"
 
+# Site Author
+author:
+  name: "Ejay Ledesma"
+  bio: "I am a Pinoy Programmer who wants to learn stuff"
+  location: "Philippines"
+  email:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ejayledesma"
 
-theme: jekyll-theme-architect
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ejayledesma"
