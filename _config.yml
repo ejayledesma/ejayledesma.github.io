@@ -5,6 +5,7 @@ minimal_mistakes_skin: "dark"
 # Site Settings
 title: ejayledesma
 description: This is my personal site.
+subtitle: a personal site
 name: Ejay Ledesma
 url: "https://ejayledesma.github.io"
 repository: "ejayledesma/ejayledesma.github.io"
@@ -13,7 +14,7 @@ repository: "ejayledesma/ejayledesma.github.io"
 author:
   name: "Ejay Ledesma"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "A Pinoy Software Engineer who wants to learn stuff"
+  bio: "A Pinoy Software Engineer who wants to learn and share stuff"
   location: "Philippines"
   email: "ejayledesma@gmail.com"
   links:
@@ -23,6 +24,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ejayledesma/"
+    - label: "Goodreads"
+      icon: "fab fa-fw fa-goodreads"
+      url: "https://www.goodreads.com/user/show/47262940-ejay-the-casual-reader"
 
 # Site Footer
 footer:
