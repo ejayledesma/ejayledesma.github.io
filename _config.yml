@@ -3,7 +3,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 minimal_mistakes_skin: "dark"
 
 # Site Settings
-title: Ejay Ledesma
+title: ejayledesma
 description: This is my personal site.
 name: Ejay Ledesma
 url: "https://ejayledesma.github.io"
@@ -12,13 +12,17 @@ repository: "ejayledesma/ejayledesma.github.io"
 # Site Author
 author:
   name: "Ejay Ledesma"
-  bio: "I am a Pinoy Programmer who wants to learn stuff"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "A Pinoy Software Engineer who wants to learn stuff"
   location: "Philippines"
-  email:
+  email: "ejayledesma@gmail.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ejayledesma"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ejayledesma/"
 
 # Site Footer
 footer:
@@ -26,7 +30,42 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ejayledesma"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ejayledesma/"
 
+# reading files
+include:
+  - _pages
 
 plugins:
   - jekyll-include-cache
+
+# defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
