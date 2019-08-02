@@ -46,6 +46,14 @@ include:
 
 exclude: [vendor]
 
+# commenting
+comments:
+  provider: "facebook"
+  facebook:
+    #appid: # optional
+    num_posts: 5
+    colorscheme: "dark"
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
