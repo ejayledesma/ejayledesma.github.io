@@ -42,6 +42,8 @@ footer:
 include:
   - _pages
 
+exclude: [vendor]
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
