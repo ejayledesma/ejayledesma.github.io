@@ -13,7 +13,9 @@ script: ./script/cibuild
 branches:
   only:
   #- gh-pages     # test the gh-pages branch
+  - /release-(.*)/ # test every branch which starts with "release-"
   - develop
+  - master
 
 env:
   global:
