@@ -71,8 +71,13 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: project
     values:
       layout: single
       author_profile: false
       share: true
+
+collections:
+  project:
+    output: true
+    permalink: /:collection/:path/
