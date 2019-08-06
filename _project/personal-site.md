@@ -4,6 +4,7 @@ excerpt: "a personal site showcasing my love for learning"
 header:
   #image: /assets/images/ejayledesma-project.png
   teaser: assets/images/ejayledesma-project.png
+  teaser_alt: 'ejayledesma site screenshot'
 #sidebar:
 #  - title: "Role"
 #    image: http://placehold.it/350x250
