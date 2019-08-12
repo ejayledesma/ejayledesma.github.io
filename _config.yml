@@ -9,6 +9,8 @@ subtitle: a personal site
 name: Ejay Ledesma
 url: "https://ejayledesma.github.io"
 repository: "ejayledesma/ejayledesma.github.io"
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 
 # Site Author
 author:
@@ -44,6 +46,14 @@ include:
 
 exclude: [vendor]
 
+# commenting
+comments:
+  provider: "facebook"
+  facebook:
+    #appid: # optional
+    num_posts: 5
+    colorscheme: "dark"
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
@@ -71,8 +81,13 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: project
     values:
       layout: single
       author_profile: false
       share: true
+
+collections:
+  project:
+    output: true
+    permalink: /:collection/:path/

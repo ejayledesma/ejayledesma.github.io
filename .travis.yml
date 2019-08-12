@@ -16,6 +16,7 @@ branches:
   only:
   - /release-(.*)/ # test every branch which starts with "release-"
   - develop
+  - master
 
 env:
   global:
