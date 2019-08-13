@@ -2,8 +2,8 @@
 layout: single
 categories: [blog]
 permalink: /:categories/:year/:month/:day/:title/
-classes: wide
 toc: true
+toc_sticky: true
 ---
 
 A few months ago, I logged into my [GitHub](https://github.com/) account. I had it since 2015 but wasn't able to add anything until recently. I was trying to learn how things work around Git and GitHub when I learned about hosting static websites via [GitHub Pages](https://pages.github.com/). Since I recently had an idea of having my personal site to put things I learned and some projects that I will do, I grabbed this opportunity to setup a personal site and host it via GitHub Pages.
