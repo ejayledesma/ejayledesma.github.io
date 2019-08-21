@@ -140,9 +140,9 @@ Clicking on the status image shows a prompt with options for branch to get statu
 
 ## Conclusion
 
-This is a simple Travis CI setup but this gave me a good initial experience with setting up automated build environment for a project. Automated build and test setup is a good software development practice which I want to implement in my future personal projects.
+This is a simple Travis CI setup but this gave me a good initial experience with setting up automated build environment for a project. I did not include any automated deployment for now using Travis CI but you can certainly add it if you want. I'm still testing the waters when it comes to CI/CD so I'm taking things one step at a time. 
 
-Be sure to implement them in your projects also! Keep learning!
+Automated build and test setup is a good software development practice which I want to implement in my future personal projects. Be sure to implement them in your projects also! Keep learning!
 
 Resources:
 
